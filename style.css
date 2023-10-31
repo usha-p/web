@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Mukta', sans-serif;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(76, 92, 157, 0.7),rgba(35, 54, 126, 0.7)),url('https://www.econlib.org/wp-content/uploads/2018/02/institutions.jpg');
+    background-position: center;
+    background-size:cover ;
+    position: relative;
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-con{
+    flex:1;
+    text-align: right;
+}
+.nav-con ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-con ul li a{
+    color: #fff;;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+
+.container{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.container{
+    font-size: 48px;
+}
+.container p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+.h-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 12px;
+    background: transparent;
+    position: relative;
+    cursor:pointer;
+}
